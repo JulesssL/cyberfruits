@@ -1,0 +1,59 @@
+.ajouter{
+    position: fixed;
+    background-color: #aad2a2;
+    color:#000;
+    font-size: 2vh;
+    border: 2px solid #000;
+    padding: 0.7em 0.9em;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.temoignageRow{
+    width: 70vw;
+    margin: 1vh auto;
+    display: flex;
+    padding: 1em 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vh;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.temoignageTitle{
+    font-size: 3.5vh;
+    color: #98cae0;
+}
+
+
+.temoignageDescription{
+    font-size: 2.5vh;
+    color: black;
+}
+
+.temoignageDate{
+    font-size: 2vh;
+    color: #98cae0;
+}
+
+.temoignageAuteur{
+    font-size: 2.3vh;
+    color: #f7a64a;
+    text-align: right;
+    font-weight: bold;
+    align-self: self-end;
+}
+
+.temoignageLink{
+    font-size: 2vh;
+    color: #000;
+    background-color: #aad2a2;
+    padding: 0.7em 0.9em;
+    border-radius: 5px;
+}
+

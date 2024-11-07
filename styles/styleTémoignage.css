@@ -1,0 +1,50 @@
+.backPage {
+    display: inline-block;
+    padding: 0.7em 0.9em;
+    background-color: #aad2a2;
+    color: #000;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+}
+
+.backPage:hover {
+    box-shadow: 0 5px 10px #aad2a2;
+}
+
+.temoignagePage{
+    width: 70vw;
+    margin: 4vh auto;
+    display: flex;
+    padding: 1em 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vh;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.temoignageTitle{
+    color: #98cae0;
+    font-size: 4vh;
+}
+
+.temoignageDescription{
+    color: #000;
+    font-size: 2.2vh;
+}
+
+.temoignageDate{
+    color: #98cae0;
+    font-size: 2vh;
+    text-decoration: underline;
+    align-self: self-end;
+}
+
+.temoignageAuteur{
+    font-size: 2.3vh;
+    color: #f7a64a;
+    text-align: right;
+    font-weight: bold;
+    align-self: self-end;
+}

@@ -1,0 +1,82 @@
+.articleRow{
+    width: 70vw;
+    margin: 1vh auto;
+    display: flex;
+    padding: 1em 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vh;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.articleTitle{
+    font-size: 3.5vh;
+    color: #98cae0;
+
+}
+
+.articleDescription{
+    font-size: 2.5vh;
+    color: black;
+}
+
+.articleDate{
+    font-size: 2vh;
+    color: #98cae0;
+}
+
+.articleAuteur{
+    font-size: 2.3vh;
+    color: #f7a64a;
+    text-align: right;
+    font-weight: bold;
+    align-self: self-end;
+}
+
+.articleLink{
+    font-size: 2vh;
+    color: #000;
+    background-color: #aad2a2;
+    padding: 0.7em 0.9em;
+    border-radius: 5px;
+}
+
+#formulaire{
+    width: 70vw;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4vh;
+}
+
+#categorieFiltre{
+    padding: 0.7em 0.9em;
+    border-bottom: 1px solid gray;
+    font-size: 2vh;
+}
+
+option{
+    border-radius:5px;
+}
+
+option:focus{
+    background-color: #f7a64a;
+}
+
+#boutonFiltre{
+    background-color: #98cae0;
+    font-size:2vh;
+    color: black;
+    padding: 0.7em 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+#boutonFiltre:hover{
+    box-shadow: 0px 5px 10px #98cae0;
+}
